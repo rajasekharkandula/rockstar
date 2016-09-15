@@ -1,0 +1,10 @@
+.fsvs { -webkit-backface-visibility: hidden; -webkit-perspective: 1000; position: fixed; top: 54px; left: 0; z-index: 1; height: 100%; width: 100%; overflow: hidden;}
+.fsvs>div { height: 100%; transition: all 1s;  }
+.fsvs .slide { height: 100%; width: 100%; overflow: hidden; -webkit-backface-visibility: hidden; -webkit-perspective: 1000;  }
+#fsvs-pagination { margin: 0; padding: 8px 4px; position: fixed; height: auto; right: -100px; top: 50%; z-index: 999; width: 32px; }
+#fsvs-pagination li { list-style: none; width: 25px; height: 25px; line-height: 25px; text-align: center; margin: 0 0 2px 0; cursor: pointer; }
+#fsvs-pagination li > span { border-radius: 100%; width: 22px; height: 22px; line-height: 22px; border: 1px solid white; display: block; }
+#fsvs-pagination li > span > span { border-radius: 100%; width: 12px; height: 12px; line-height: 12px; border: 1px solid white; display: block; margin: 4px; }
+#fsvs-pagination li.active > span { border: 1px dashed white; }
+#fsvs-pagination li.active > span > span { background: white; }
+#fsvs-pagination li:last-child { margin: 0; }
